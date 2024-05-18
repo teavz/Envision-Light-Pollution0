@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  overflow: hidden;
+  font-family: Nunito;
+}
+
+/*---------- Loading Screen ----------*/
+.LoadingScreen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #302e33;
+}
+
+.image {
+  margin-bottom: 5px;
+}
+
+.loading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-box {
+  padding: 2px;
+  width: 40%;
+  height: 20px;
+  border: 2px solid #c4d48c;
+  border-radius: 20px;
+}
+
+.line {
+  height: 20px;
+  border-radius: 20px;
+  background: #c4d48c;
+
+  animation-name: Loader;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+}
+
+@keyframes Loader{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

@@ -1,0 +1,34 @@
+/*---------- Home Page ----------*/
+.HomePage {
+  background-image: url('/images/stars.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-position: 50% 0;
+}
+
+.title {
+  font-family: Fredoka One;
+  text-align: center;
+  color: #E9F7F6;
+  font-size: 5vw;
+  padding-top: 3%;
+}
+
+.container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300vw; /* Assuming 3 screens */
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
