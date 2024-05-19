@@ -1,12 +1,4 @@
 /*---------- Home Page ----------*/
-.HomePage {
-  background-image: url('/images/stars.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  background-position: 50% 0;
-}
 
 .title {
   font-family: Fredoka One;
@@ -31,4 +23,14 @@
   justify-content: center;
   text-align: center;
   position: relative;
+}
+
+
+#HomePage{
+  background-image: none;
+  background-size:cover;
+  background-repeat: none;
+  width: 100vw;
+  height: 100vh;
+  transition: background-image 1s ease-out;
 }
